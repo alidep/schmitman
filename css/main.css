@@ -1,0 +1,381 @@
+@font-face {
+  font-family: 'LeagueSparten';
+  src:  url('leaguespartan-bold-webfont.woff2') format('woff2'),
+        url('leaguespartan-bold-webfont.woff') format('woff');
+}
+
+
+
+
+
+body{
+	margin-top:0px;
+	font-family: 'Libre Baskerville', serif;
+	  overflow-x: hidden; 
+
+}
+
+body{
+	background-color: #fff;
+	font-weight: 700;
+	color:#5D595C;
+	
+}
+.footer{
+	background-color:#1F1F1F;
+	color: #fff;
+}
+/*.hero-body {
+	background-color: #292935;
+	text-align: center;
+	height: 100%;
+}*/
+
+
+
+h1{
+	font-family: 'Muli', sans-serif;
+font-weight: 900;
+	margin: 30px;
+	font-size: 48px;
+	padding: 30px;
+}
+
+
+h2{
+	font-family: 'Muli', sans-serif;
+
+	font-size: 48px;
+	font-weight: 700;
+	color: #6CF6FB;
+	margin: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+
+h3{
+	font-family: 'Muli', sans-serif;;
+	font-size: 24px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	margin-bottom: : 10px;
+}
+
+h4{
+	font-family: 'Muli', sans-serif;
+font-weight: 900;
+	font-size: 21px;
+	padding-bottom: 10px;
+
+	margin: 10px;
+
+}
+
+h5{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 18px;
+	font-weight: 900;
+	text-align: left;
+
+	
+	
+}
+
+
+#top-btn{
+	margin-top:100px;
+}
+
+#arrow{
+	margin-top: 100px;
+}
+
+.hero
+{
+	display: none;
+}
+
+.hero-body
+{
+	height: 800px;
+}
+
+.sub-space{
+width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+p{
+	font-family: 'Libre Baskerville', serif;
+	line-height: 1.6;
+	font-size: 18px;
+
+}
+
+a{
+	color: #EE16C0;
+}
+a:visited 
+{
+    text-decoration: none; 
+    decoration: none; 
+}
+
+.button:focus {outline:0;}
+
+
+.button{
+	border-radius: 0;
+	font-family: 'Muli', sans-serif;
+	margin:20px;
+	color: #fff;
+	border:0;
+}
+
+#hero-btn{
+	background-color: #fff;
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	
+	font-weight: 900;
+	border: 5px;
+	
+}
+
+
+.thin-new{
+	font-family: 'Hind', sans-serif;
+font-weight: 700;
+color: #6CF6FB;
+}
+
+.subtitle-new{
+font-size: 24px;
+font-family: 'Inconsolata', monospace;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+.navbar
+{background-color: #292935;}
+
+
+#blue{
+	color: #6CF6FB;
+}
+
+#jobboard{
+	position: fixed;
+top:30px;
+right: 20px;
+    width: 120px;
+    z-index: 2;
+
+}
+
+
+
+#team {
+	border-radius: 50%;
+	border:5px solid #fff;
+	  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+}
+
+
+/* Navbar */
+
+a.navbar-item
+{color:#fff;
+font-family: 'Inconsolata', monospace;
+font-weight: 700;
+font-size: 18px;}
+
+a.navbar-item:hover{
+	color: #6CF6FB;
+}
+
+.navbar-item img{
+	width: 120px;
+	max-height:300px;
+}
+
+.navbar-menu
+{background-color: #0A95C8;}
+
+/*#logo
+{position: absolute;
+	top:-10px;
+	width: 150px;
+	z-index: 20;
+	
+}*/
+
+#center-one
+{
+	text-align: left;
+}
+
+.field{
+	padding: 10px;
+}
+
+
+@media only screen and (max-width : 768px) {
+
+
+
+
+#top-btn{
+	left:10px;
+	position: absolute;
+	bottom: 10px;
+}
+
+#arrow{
+	display: none;
+}
+
+
+
+
+/*	.demo-1 .main-title, 
+	.demo-3 .main-title,
+	.demo-4 .main-title {
+		font-size: 11px;
+
+		width: 90%;
+		margin-left:auto;
+		margin-right: auto;
+	}
+
+	.demo-2 .main-title {
+		font-size: 11px;
+	}*/
+}
+
+#div3{
+	padding-top: 30%;
+}
+
+.alianzas img{
+height: 100px;
+}
+
+.alianzas #longones img{
+height: 65px;
+}
+
+.philo{
+	color: #fff;
+	
+	background-image: url('../img/2ndbg.png'); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.yellowbg{
+color: #fff;
+		background-image: url('../img/yellowbg.png'); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.greenbg{
+color: #fff;
+		background-image: url('../img/greenbg.png'); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.us{
+		
+		background-image: url('../img/ppl.png'); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.cornerdiv{
+	position: fixed;
+	top:0px
+	left:0px;
+	z-index: 10;
+}
+
+.lefty h1{
+	text-align: left;
+	color:#0A95C8;
+}
+
+#ppl-left{
+	float: left;
+	width: 550px;
+	
+
+	
+}
+
+#ppl-right{
+	
+	width: 550px;
+	
+	
+}
+
+.text-align-left{
+	text-align: left: 
+}
+
+
+.containernav2 {
+	position: fixed;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 30;
+  top:20px;
+  left:20px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #A1C73A;
+  border-radius:30px;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
